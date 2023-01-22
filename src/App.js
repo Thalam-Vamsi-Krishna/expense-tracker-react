@@ -1,5 +1,7 @@
+import React from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
-function App() {
+const App = () => {
   const expenses = [
     {
       date: new Date(2022, 11, 24),
@@ -24,10 +26,10 @@ function App() {
   ];
   return (
     <div>
-      <h2>ExpenseItems</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
