@@ -26,6 +26,12 @@ const initial_expenses = [
     item: "Food",
     price: "200",
   },
+  {
+    id: "e5",
+    date: new Date(2021, 11, 28),
+    item: "Books",
+    price: "100",
+  },
 ];
 const App = () => {
   const [expenses, setExpenses] = useState(initial_expenses);
