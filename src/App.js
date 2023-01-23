@@ -4,27 +4,27 @@ import Expenses from "./components/Expenses/Expenses";
 const initial_expenses = [
   {
     id: "e1",
-    date: new Date(2022, 11, 24),
-    item: "Food",
-    price: "50",
+    date: new Date(2023, 0, 14),
+    item: "Movie",
+    price: "500",
   },
   {
     id: "e2",
-    date: new Date(2022, 11, 25),
-    item: "Petrol",
-    price: "100",
+    date: new Date(2023, 0, 12),
+    item: "Shopping",
+    price: "800",
   },
   {
     id: "e3",
     date: new Date(2022, 11, 27),
-    item: "Movie",
-    price: "200",
+    item: "Petrol",
+    price: "300",
   },
   {
     id: "e4",
     date: new Date(2022, 11, 28),
-    item: "Shopping",
-    price: "300",
+    item: "Food",
+    price: "200",
   },
 ];
 const App = () => {
