@@ -16,8 +16,8 @@ const initial_expenses = [
   },
   {
     id: "e3",
-    date: new Date(2022, 11, 27),
-    item: "Petrol",
+    date: new Date(2022, 10, 27),
+    item: "Power Bill",
     price: "300",
   },
   {
